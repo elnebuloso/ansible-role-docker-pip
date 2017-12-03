@@ -1,0 +1,3 @@
+---
+docker_pip_itself_state: latest
+docker_pip_docker_state: latest

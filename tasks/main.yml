@@ -1,0 +1,13 @@
+---
+- name: "install python pip"
+  apt: name=python-pip state=present update_cache=yes cache_valid_time=3600
+
+- name: "update python pip"
+  pip:
+    name: pip
+    state: "{{docker_pip_itself_state}}"
+
+- name: "install python pip: docker"
+  pip:
+    name: docker
+    state: "{{docker_pip_docker_state}}"
