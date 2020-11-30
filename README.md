@@ -1,6 +1,6 @@
 # Ansible Role - Docker Python Pip
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-docker-pip.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-docker-pip)
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
 
 ## Requirements
 
